@@ -1,22 +1,8 @@
 import React from 'react'
 
-import "./styles.css"
-import SidePanel from '../general/sidepanel'
-import About from '../About Us/About'
-import Service from '../Service/service'
-import Portfolio from '../portfolio/Portfolio'
-import Contact from '../contact/Contact'
-const InputField = () => {
-      
+const Homepage = () => {
   return (
-
-    <div className="main-container">
-
-        <SidePanel />   
-
-        <div className="main-content">
-    
-            <section className="home section">
+    <section className="home section">
                 <div className="container">
                     <div className="row">
                         <div className="home-info padd-15">
@@ -78,16 +64,7 @@ const InputField = () => {
                     </div>
                 </div>
             </section>
-
-            <About />           
-            <Service />
-            <Portfolio />            
-            <Contact />
-
-        </div>
-
-    </div>
   )
 }
 
-export default InputField
+export default Homepage
