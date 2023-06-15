@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const SidePanel = () => {
   return (
@@ -10,11 +11,11 @@ const SidePanel = () => {
             <span></span>
         </div>
         <ul className="nav">
-            <li><a href="#" className="active"><i className="fa fa-home"></i> Home</a></li>
-            <li><a href="#"><i className="fa fa-user"></i> About</a></li>
-            <li><a href="#"><i className="fa fa-list"></i>Services</a></li>
-            <li><a href="#"><i className="fa fa-briefcase"></i>Portfolio</a></li>
-            <li><a href="#"><i className="fa fa-comments"></i>Contact</a></li>
+            <li><Link to="/" className="active"><i className="fa fa-home"></i> Home</Link></li>
+            <li><Link to="/About"><i className="fa fa-user"></i> About</Link></li>
+            <li><Link to="/Services"><i className="fa fa-list"></i>Services</Link></li>
+            <li><Link to="/Portfolio"><i className="fa fa-briefcase"></i>Portfolio</Link></li>
+            <li><Link to="/Contact"><i className="fa fa-comments"></i>Contact</Link></li>
         </ul>
     </div>
   )
