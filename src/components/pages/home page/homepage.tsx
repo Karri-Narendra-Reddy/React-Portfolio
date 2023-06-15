@@ -4,8 +4,8 @@ import "./styles.css"
 import SidePanel from '../general/sidepanel'
 import About from '../About Us/About'
 import Service from '../Service/service'
-import Portfolio from '../../portfolio/Portfolio'
-import Contact from '../../contact/Contact'
+import Portfolio from '../portfolio/Portfolio'
+import Contact from '../contact/Contact'
 const InputField = () => {
       
   return (
